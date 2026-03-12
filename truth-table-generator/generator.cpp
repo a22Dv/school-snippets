@@ -221,7 +221,7 @@ void Table::_run_lexer(std::string_view expression)
                 _token_list.push_back(token_map.at(pmlenopstr));
                 pmlenopstr.clear();
                 continue;
-            }  else {
+            } else {
                 throw std::runtime_error("Unknown symbol. Expected '->' or '<->'.");
             }
         }
@@ -357,7 +357,12 @@ std::string Table::get_table()
     table.append("\n");
     for (auto &row : _entries) {
         for (auto i : subexprs) {
-            table.append(std::format("{0:^{1}} ", row[i], _expression_substr[i].size() + 2));
+            table.append(
+                std::format(
+                    "{0}{1:^{2}}{3} ", row[i] ? "\e[0;32m" : "\e[0;31m", row[i],
+                    _expression_substr[i].size() + 2, "\e[0m"
+                )
+            );
         }
         table.append("\n");
     }
