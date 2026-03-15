@@ -1,77 +1,9 @@
 BasedOnStyle: Google
 IndentWidth: 4
 ColumnLimit: 100
-
-# Operands
-AlignOperands: Align
+BreakBeforeBraces: Linux
 
 # Comments
 AlignTrailingComments:
   Kind: Always
   OverEmptyLines: 2
-
-# Argument guides.
-AllowAllArgumentsOnNextLine: true
-
-# Short style guides.
-AllowShortBlocksOnASingleLine: Never
-AllowShortCaseLabelsOnASingleLine: true
-AllowShortCompoundRequirementOnASingleLine: true
-AllowShortEnumsOnASingleLine: false
-AllowShortFunctionsOnASingleLine: Empty
-AllowShortIfStatementsOnASingleLine: AllIfsAndElse
-AllowShortLambdasOnASingleLine: All
-AllowShortLoopsOnASingleLine: true
-AllowShortNamespacesOnASingleLine: false
-
-# Break guides.
-AllowBreakBeforeNoexceptSpecifier: Never
-AlwaysBreakBeforeMultilineStrings: false
-BreakAdjacentStringLiterals: true
-BreakAfterOpenBracketBracedList: true
-BreakAfterOpenBracketFunction: true
-BreakAfterOpenBracketIf: true
-BreakAfterOpenBracketLoop: true
-BreakAfterOpenBracketSwitch: true
-BreakBeforeCloseBracketBracedList: true
-BreakBeforeCloseBracketFunction: true
-BreakBeforeCloseBracketIf: true
-BreakBeforeCloseBracketLoop: true
-BreakBeforeCloseBracketSwitch: true
-BreakBeforeTemplateCloser: true
-BreakBeforeTernaryOperators: true
-BreakBeforeBinaryOperators: None
-BreakFunctionDefinitionParameters: false
-BreakStringLiterals: true
-BreakConstructorInitializers: AfterColon
-BreakBeforeBraces: Linux
-
-# Bin-packing
-BinPackArguments: true
-BinPackLongBracedList: true
-BinPackParameters: BinPack
-
-# Bitfields
-BitFieldColonSpacing: Both
-
-# Pointers
-DerivePointerAlignment: false
-PointerAlignment: Right
-
-# Access Modifiers / Cases
-IndentAccessModifiers: false
-IndentCaseBlocks: false
-IndentCaseLabels: true
-
-# Miscellaneous
-IndentExternBlock: Indent
-IndentExportBlock: true
-IndentGotoLabels: true
-IndentPPDirectives: BeforeHash
-IndentWrappedFunctionNames: false
-KeepEmptyLines:
-  AtEndOfFile: false
-  AtStartOfBlock: false
-  AtStartOfFile: false
-NamespaceIndentation: None
-PackConstructorInitializers: NextLine
