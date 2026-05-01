@@ -72,9 +72,10 @@ G: G16
 
 Requires `z3-solver`. Install it using `pip`.
 
-License
+## License
 
 This project is licensed under the MIT License - see LICENSE for more details.
-Author
+
+## Author
 
 a22Dv - a22dev.gl@gmail.com
