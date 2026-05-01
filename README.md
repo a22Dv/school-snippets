@@ -1,8 +1,11 @@
 # sprog
+![MIT](https://img.shields.io/badge/license-MIT-green?style=flat)
+
 
 Some small programs based on school topics compiled into one repository.
 
 ## logical-evaluator
+![C++23](https://img.shields.io/badge/C%2B%2B-23-blue?style=flat&logo=cplusplus&logoColor=white)
 
 Takes a given expression as an argument, and outputs the truth table belonging to that expression.
 To build it, run `make`, then run the resulting binary `./logeval <EXPR>`.
@@ -24,6 +27,7 @@ F   F   F      F            F
 ```
 
 ## z3mincirc.py
+![Python](https://img.shields.io/badge/Python->=3.13-blue?style=flat&logo=python&logoColor=white)
 
 Takes a given input and output as binary columns, and tries to solve for the smallest possible
 circuit it takes to map the input to the output.
