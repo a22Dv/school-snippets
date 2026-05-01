@@ -4,6 +4,10 @@
 
 Some small programs based on school topics compiled into one repository.
 
+## Programs
+- [logical-evaluator](#logical-evaluator)
+- [z3mincirc.py](#z3mincirc.py)
+
 ## logical-evaluator
 ![C++23](https://img.shields.io/badge/C%2B%2B-23-blue?style=flat&logo=cplusplus&logoColor=white)
 
@@ -67,3 +71,10 @@ G: G16
 ```
 
 Requires `z3-solver`. Install it using `pip`.
+
+License
+
+This project is licensed under the MIT License - see LICENSE for more details.
+Author
+
+a22Dv - a22dev.gl@gmail.com
